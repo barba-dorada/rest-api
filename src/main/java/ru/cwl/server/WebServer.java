@@ -21,6 +21,6 @@ public class WebServer {
 
         get("/hello", (req, res) -> "Hello World");
 
-        System.out.println("http://localhost:4567/hello");
+        System.out.println("http://localhost:4567/");
     }
 }
